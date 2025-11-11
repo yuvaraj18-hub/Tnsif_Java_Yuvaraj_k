@@ -1,27 +1,45 @@
-# StudentModule
+# 🏪 Customer Module (Angular + Spring Boot)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+A simple full-stack web app for managing customer details using **Angular (Frontend)** and **Spring Boot (Backend)**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Features
+- Add / Edit / Delete / View Customers  
+- REST API integration  
+- Angular form validation  
+- MySQL / H2 database support  
+- Responsive and clean UI 🎨  
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🧰 Tech Stack
+**Frontend:** Angular 18, TypeScript, HTML, SCSS  
+**Backend:** Spring Boot 3+, Java 17, REST API  
+**Database:** MySQL / H2  
+**Tools:** VS Code, STS, Postman, Git  
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ⚡ Quick Start
+```bash
+# Clone repository
+git clone https://github.com/yuvaraj18-hub/Tnsif_Java_Yuvaraj_k.git
 
-## Running unit tests
+Backend runs on 👉 http://localhost:8081
+Frontend runs on 👉 http://localhost:4200
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+📬 API Endpoints
+Method	Endpoint	Description
+GET	/customerdetails	Fetch all customers
+POST	/customerdetails	Add new customer
+PUT	/customerdetails/{id}	Update customer
+DELETE	/customerdetails/{id}	Remove customer
+👨‍💻 Author-Yuvaraj K
+📧 yuvarajyj67@gmail.com
 
-## Running end-to-end tests
+🌐 github.com/yuvaraj18-hub
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+⭐ Made with ❤️ by Yuvaraj K ⭐
+# Run Angular app
+ng serve --open
