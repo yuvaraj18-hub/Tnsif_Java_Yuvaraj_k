@@ -1,4 +1,4 @@
-# 🏪 Customer Module (Angular + Spring Boot)
+# 🏪 SHOPPING MALL APPLICATION - Customer Module (Angular + Spring Boot)
 
 A simple full-stack web app for managing customer details using **Angular (Frontend)** and **Spring Boot (Backend)**.
 
